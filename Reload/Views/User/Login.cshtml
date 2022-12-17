@@ -1,0 +1,23 @@
+﻿@using Reload.Models.DataTables
+@model User
+
+@{
+    ViewData["Title"] = "Login";
+}
+
+<h1>Login</h1>
+<form method="post">
+    <div class="mb-3">
+        <label asp-for="Username" class="form-label">Username</label>
+        <input asp-for="Username" type="text" class="form-control">
+    </div>
+    <div class="mb-3">
+        <label asp-for="Password" class="form-label">Password</label>
+        <input asp-for="Password" type="password" class="form-control">
+    </div>
+    <div class="mb-3 form-check">
+        <input asp-for="RememberMe" type="checkbox" class="form-check-input">
+        <label asp-for="RememberMe" class="form-check-label">Login automatically next time</label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
