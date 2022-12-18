@@ -26,10 +26,5 @@
             }
             return seperatedId;
         }
-
-        public int PaginateChapterIdx(int idx)
-        {
-            return idx + 1;
-        }
     }
 }

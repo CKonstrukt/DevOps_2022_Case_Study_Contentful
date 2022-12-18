@@ -10,15 +10,5 @@ namespace Reload.Models.Contentful
         public Document? Content { get; set; }
         public Quiz[]? Quizzes { get; set; }
         public dynamic? Sys { get; set; }
-
-        public int calculateNextPage(int currentPageIdx)
-        {
-            return currentPageIdx + 1;
-        }
-
-        public int calculatePreviousPage(int currentPageIdx)
-        {
-            return currentPageIdx - 1;
-        }
     }
 }
