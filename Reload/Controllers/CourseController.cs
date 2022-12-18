@@ -27,12 +27,12 @@ namespace Reload.Controllers
             _signInManager = signInManager;
         }
 
-        public async Task<IActionResult> DynamicCourse(string? courseName, string chaptersId, int? page)
+        public async Task<IActionResult> DynamicCourse(string courseName, string chapterIDs, int? page)
         {
-            ViewBag.courseName = courseName;
-            ViewBag.chapterId = chaptersId;
+            ViewData["courseName"] = courseName;
+            ViewData["chapterIDs"] = chapterIDs;
 
-            string[] seperatedchapterId = chaptersId.Split(',');
+            string[] seperatedchapterId = chapterIDs.Split(",");
 
             var builder = QueryBuilder<Chapter>.New.ContentTypeIs("chapter").OrderBy("sys.createdAt");
             var chapters = await _client.GetEntries(builder);

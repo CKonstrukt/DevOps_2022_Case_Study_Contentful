@@ -11,12 +11,12 @@
 
 @if (Model.HasPreviousPage)
 {
-    <a asp-controller="Course" asp-action="DynamicCourse" asp-route-courseName=@ViewBag.courseName asp-route-chaptersId=@ViewBag.chapterId
+    <a asp-controller="Course" asp-action="DynamicCourse" asp-route-courseName=@ViewData["courseName"] asp-route-chapterIDs=@ViewData["chapterIDs"]
    asp-route-page=@Model[0].calculatePreviousPage(Model.PageNumber) class="btn btn-primary">Previous Chapter</a>
 }
 
 @if (Model.HasNextPage)
 {
-    <a asp-controller="Course" asp-action="DynamicCourse" asp-route-courseName=@ViewBag.courseName asp-route-chaptersId=@ViewBag.chapterId
+    <a asp-controller="Course" asp-action="DynamicCourse" asp-route-courseName=@ViewData["courseName"] asp-route-chapterIDs=@ViewData["chapterIDs"]
    asp-route-page=@Model[0].calculateNextPage(Model.PageNumber) class="btn btn-primary">Next Chapter</a>
 }

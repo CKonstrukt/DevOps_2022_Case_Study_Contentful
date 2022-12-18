@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\seppe\\Desktop\\Reload\\Reload\\Reload.csproj": {}
+    "C:\\Users\\seppe\\Downloads\\DevOps_2022_Case_Study_Contentful-main\\DevOps_2022_Case_Study_Contentful-main\\Reload\\Reload.csproj": {}
   },
   "projects": {
-    "C:\\Users\\seppe\\Desktop\\Reload\\Reload\\Reload.csproj": {
+    "C:\\Users\\seppe\\Downloads\\DevOps_2022_Case_Study_Contentful-main\\DevOps_2022_Case_Study_Contentful-main\\Reload\\Reload.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\seppe\\Desktop\\Reload\\Reload\\Reload.csproj",
+        "projectUniqueName": "C:\\Users\\seppe\\Downloads\\DevOps_2022_Case_Study_Contentful-main\\DevOps_2022_Case_Study_Contentful-main\\Reload\\Reload.csproj",
         "projectName": "Reload",
-        "projectPath": "C:\\Users\\seppe\\Desktop\\Reload\\Reload\\Reload.csproj",
+        "projectPath": "C:\\Users\\seppe\\Downloads\\DevOps_2022_Case_Study_Contentful-main\\DevOps_2022_Case_Study_Contentful-main\\Reload\\Reload.csproj",
         "packagesPath": "C:\\Users\\seppe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\seppe\\Desktop\\Reload\\Reload\\obj\\",
+        "outputPath": "C:\\Users\\seppe\\Downloads\\DevOps_2022_Case_Study_Contentful-main\\DevOps_2022_Case_Study_Contentful-main\\Reload\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

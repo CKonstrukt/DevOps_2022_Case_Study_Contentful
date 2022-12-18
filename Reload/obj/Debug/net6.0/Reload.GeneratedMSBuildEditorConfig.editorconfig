@@ -8,49 +8,49 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Reload
 build_property.RootNamespace = Reload
-build_property.ProjectDir = C:\Users\seppe\Desktop\Reload\Reload\
+build_property.ProjectDir = C:\Users\seppe\Downloads\DevOps_2022_Case_Study_Contentful-main\DevOps_2022_Case_Study_Contentful-main\Reload\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\seppe\Desktop\Reload\Reload
+build_property.MSBuildProjectDirectory = C:\Users\seppe\Downloads\DevOps_2022_Case_Study_Contentful-main\DevOps_2022_Case_Study_Contentful-main\Reload
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/seppe/Desktop/Reload/Reload/Views/Course/DynamicCourse.cshtml]
+[C:/Users/seppe/Downloads/DevOps_2022_Case_Study_Contentful-main/DevOps_2022_Case_Study_Contentful-main/Reload/Views/Course/DynamicCourse.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlXER5bmFtaWNDb3Vyc2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/seppe/Desktop/Reload/Reload/Views/Home/DisplayCourses.cshtml]
+[C:/Users/seppe/Downloads/DevOps_2022_Case_Study_Contentful-main/DevOps_2022_Case_Study_Contentful-main/Reload/Views/Home/DisplayCourses.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEaXNwbGF5Q291cnNlcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/seppe/Desktop/Reload/Reload/Views/Home/Start.cshtml]
+[C:/Users/seppe/Downloads/DevOps_2022_Case_Study_Contentful-main/DevOps_2022_Case_Study_Contentful-main/Reload/Views/Home/Start.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/seppe/Desktop/Reload/Reload/Views/Shared/Error.cshtml]
+[C:/Users/seppe/Downloads/DevOps_2022_Case_Study_Contentful-main/DevOps_2022_Case_Study_Contentful-main/Reload/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/seppe/Desktop/Reload/Reload/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/seppe/Downloads/DevOps_2022_Case_Study_Contentful-main/DevOps_2022_Case_Study_Contentful-main/Reload/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/seppe/Desktop/Reload/Reload/Views/User/Login.cshtml]
+[C:/Users/seppe/Downloads/DevOps_2022_Case_Study_Contentful-main/DevOps_2022_Case_Study_Contentful-main/Reload/Views/User/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/seppe/Desktop/Reload/Reload/Views/User/Register.cshtml]
+[C:/Users/seppe/Downloads/DevOps_2022_Case_Study_Contentful-main/DevOps_2022_Case_Study_Contentful-main/Reload/Views/User/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/seppe/Desktop/Reload/Reload/Views/_ViewImports.cshtml]
+[C:/Users/seppe/Downloads/DevOps_2022_Case_Study_Contentful-main/DevOps_2022_Case_Study_Contentful-main/Reload/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/seppe/Desktop/Reload/Reload/Views/_ViewStart.cshtml]
+[C:/Users/seppe/Downloads/DevOps_2022_Case_Study_Contentful-main/DevOps_2022_Case_Study_Contentful-main/Reload/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/seppe/Desktop/Reload/Reload/Views/Shared/_Layout.cshtml]
+[C:/Users/seppe/Downloads/DevOps_2022_Case_Study_Contentful-main/DevOps_2022_Case_Study_Contentful-main/Reload/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-g5lxdo1zbf

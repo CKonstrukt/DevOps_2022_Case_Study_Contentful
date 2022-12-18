@@ -4,7 +4,7 @@
 @model Course[]
 
 @{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Courses";
 }
 
 <div class="row">
@@ -20,7 +20,7 @@
                     <option value="Chemistry">Chemistry</option>
                 </select>
 
-                <input type="text" name="SearchString" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
+                <input type="text" name="SearchString" class="form-control" placeholder="Course Title" aria-describedby="button-addon2">
                 <button type="submit" class="btn btn-outline-primary" id="button-addon2">Search</button>
             </div>
         </p>
@@ -36,7 +36,7 @@
                 <p>@i.Description</p>
 
                 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-@i.Id">
-                    Launch demo modal
+                    See more
                 </button>
 
                 <div class="modal fade" id="modal-@i.Id" tabindex="-1" aria-labelledby="exampleModalLabel">
@@ -55,12 +55,12 @@
                                 @if (SignInManager.IsSignedIn(User))
                                 {
                                     <a asp-controller="Course" asp-action="DynamicCourse" asp-route-courseName=@i.Title
-                                    asp-route-chaptersId=@i.getChaptersId(i.Chapters) asp-route-page=@i.PaginateChapterIdx(i.ChapterStartIdx) class="btn btn-primary">@i.Chapters?[i.ChapterStartIdx].Title -></a>
+                                    asp-route-chapterIDs=@i.getChaptersId(i.Chapters) asp-route-page=@i.PaginateChapterIdx(i.ChapterStartIdx) class="btn btn-primary">@i.Chapters?[i.ChapterStartIdx].Title -></a>
                                 }
                                 else
                                 {
                                     <a asp-controller="Course" asp-action="DynamicCourse" asp-route-courseName=@i.Title
-                                    asp-route-chaptersId=@i.getChaptersId(i.Chapters) class="btn btn-primary">Start Course</a>
+                                    asp-route-chapterIDs=@i.getChaptersId(i.Chapters) class="btn btn-primary">Start Course</a>
                                 }
                             </div>
                         </div>
