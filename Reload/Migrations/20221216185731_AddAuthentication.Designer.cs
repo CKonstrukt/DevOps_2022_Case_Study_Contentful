@@ -11,7 +11,7 @@ using Reload.Data;
 
 namespace Reload.Migrations
 {
-    [DbContext(typeof(AuthDbContext))]
+    [DbContext(typeof(ApplicationDbContext))]
     [Migration("20221216185731_AddAuthentication")]
     partial class AddAuthentication
     {

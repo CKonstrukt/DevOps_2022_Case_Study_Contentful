@@ -13,13 +13,13 @@ namespace Reload.Controllers
     {
         private readonly IContentfulClient _client;
 
-        private readonly AuthDbContext _db;
+        private readonly ApplicationDbContext _db;
 
         private readonly UserManager<IdentityUser> _userManager;
         private readonly SignInManager<IdentityUser> _signInManager;
 
 
-        public CourseController(IContentfulClient client, AuthDbContext db, UserManager<IdentityUser> userManager, SignInManager<IdentityUser> signInManager)
+        public CourseController(IContentfulClient client, ApplicationDbContext db, UserManager<IdentityUser> userManager, SignInManager<IdentityUser> signInManager)
         {
             _client = client;
             _db = db;
@@ -52,24 +52,17 @@ namespace Reload.Controllers
 
             if (_signInManager.IsSignedIn(User))
             {
-                IdentityUser usr = await GetCurrentUserAsync();
-                var courses = _db.CourseProgress.Where(c => c.UserId.Equals(usr.Id) && c.CourseName.Equals(courseName));
+                IdentityUser user = await GetCurrentUserAsync();
+                var courses = _db.CourseProgress.Where(c => c.UserId.Equals(user.Id) && c.CourseName.Equals(courseName)).ToList();
 
                 if (courses.Count() == 0)
                 {
-                    CourseProgress courseProgress = new CourseProgress(courseName, pageNumber, usr.Id);
+                    CourseProgress courseProgress = new CourseProgress(courseName, pageNumber, user.Id);
                     _db.CourseProgress.Add(courseProgress);
                 }
                 else
                 {
-                    foreach (var course in courses)
-                    {
-                        if (course.CourseName.Equals(courseName))
-                        {
-                            course.ChapterIdx = pageNumber-1;
-                        }
-
-                    }
+                    courses[0].ChapterIdx = pageNumber - 1;
                 }
                 _db.SaveChanges();
             }

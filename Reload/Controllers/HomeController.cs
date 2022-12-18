@@ -15,12 +15,12 @@ namespace Reload.Controllers
     {
         private readonly IContentfulClient _client;
 
-        private readonly AuthDbContext _db;
+        private readonly ApplicationDbContext _db;
 
         private readonly UserManager<IdentityUser> _userManager;
         private readonly SignInManager<IdentityUser> _signInManager;
 
-        public HomeController(IContentfulClient client, AuthDbContext db, UserManager<IdentityUser> userManager, SignInManager<IdentityUser> signInManager)
+        public HomeController(IContentfulClient client, ApplicationDbContext db, UserManager<IdentityUser> userManager, SignInManager<IdentityUser> signInManager)
         {
             _client = client;
             _db = db;

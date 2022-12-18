@@ -4,9 +4,9 @@ using Reload.Models.DataTables;
 
 namespace Reload.Data
 {
-    public class AuthDbContext : IdentityDbContext
+    public class ApplicationDbContext : IdentityDbContext
     {
-        public AuthDbContext(DbContextOptions<AuthDbContext> options) : base(options)
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {
 
         }
